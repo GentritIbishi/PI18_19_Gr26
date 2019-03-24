@@ -1,0 +1,8 @@
+{
+    "name": "PI18_19_Gr26",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Gentrit",
+    "contributors": [Eldin],
+    "dependencies": {}
+}
