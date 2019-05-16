@@ -6,41 +6,107 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible">
-    <title>Header</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-3.4.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/index.css">
   
 </head>
 <body>
-<header>
-  <div class="container">
-    <img src="https://lh4.googleusercontent.com/-ak28-E7WE_w/TX9JIJy4lBI/AAAAAAAALcY/4hPNBtNZk8U/s1600/sony_logo20.png" class="logo" alt="phonegeek"height="50px"width="50px">
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<div class="wrapper">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <div class="login-form">
-    
-    <form action="includes/login.inc.php" method="post">
-      <input type="text" name="mailuid" placeholder="Username/Email">
-      <input type="password" name="pwd" placeholder="Password">
-      <button type="submit" name="login-submit">LOGIN</button>
-    </form>
-  </div>
-  <div class="logout-form">
+        <header>
+                <div class="menu-toggle" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="overlay"></div>
+                <div class="container">
+                    <nav class="head-nav">
+                        <h1 class="brand"><a href="index.php">GEE<span>K</span>PHONE</a></h1>
+                        <ul class="head-ul">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+
+
+
+
+        <nav>
+                <ul id="login-ul">
+                  <li id="login">
+                    <a id="login-trigger" href="#">
+                      Log in <span>▼</span>
+                    </a>
+                    <div id="login-content">
+                      <form action="includes/login.inc.php" method="post">
+                        <fieldset id="inputs">
+                          <input id="username" type="text" name="mailuid" placeholder="Your email address" required>   
+                          <input id="password" type="password" name="pwd" placeholder="Password" required>
+                        </fieldset>
+                        <fieldset id="actions">
+                          <input type="submit" name="login-submit" id="submit" value="Log in">
+                          <label><input type="checkbox" checked="checked"> Keep me signed in</label>
+                        </fieldset>
+                      </form>
+                    </div>                     
+                  </li>
+                  <li id="signup">
+                    <a href="signup.php">Sign up</a>
+                  </li>
+                </ul>
+
+                <div class="logout-form">
            <form action="includes/logout.inc.php" method="post">
-               <button type="submit" name="logout-submit">Logout</button>
-                 <a id="signup" href="signup.php">Signup</a>
+               <button type="submit" name="logout-submit">Logout. Work in progress</button>
            </form>
      </div>
 
+
 </div>
+<!--Navigation Bar javascript-->
+<script>
+var open = document.getElementById('hamburger');
+var changeIcon = true;
+
+open.addEventListener("click", function(){
+
+    var overlay = document.querySelector('.overlay');
+    var nav = document.querySelector('nav');
+    var icon = document.querySelector('.menu-toggle i');
+
+    overlay.classList.toggle("menu-open");
+    nav.classList.toggle("menu-open");
+
+    if (changeIcon) {
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-times");
+
+        changeIcon = false;
+    }
+    else {
+        icon.classList.remove("fa-times");
+        icon.classList.add("fa-bars");
+        changeIcon = true;
+    }
+});
+</script>
+
+<!--Drop down jquery-->
+<script>
+        $(document).ready(function(){
+      $('#login-trigger').click(function(){
+        $(this).next('#login-content').slideToggle();
+        $(this).toggleClass('active');          
+        
+        if ($(this).hasClass('active')) $(this).find('span').html('&#x25B2;')
+          else $(this).find('span').html('&#x25BC;')
+        })
+    });
+        </script>
+
