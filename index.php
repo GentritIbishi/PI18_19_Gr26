@@ -1,7 +1,10 @@
 <?php
 require "header.php";
 ?>
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<script src="https://use.fontawesome.com/ea603c10d8.js"></script>
+<link rel="stylesheet" href="CSS/index.css">
+<link rel="stylesheet" href="JS/index.js">
 <main>
 
 <div id="log-p">
@@ -26,6 +29,39 @@ require "header.php";
 
 </div>
 </main>
+<!--social bar-->
+<div class="vertical-social-bar">
+	<a href="#">
+		<div class="social-bar__item social-bar__fb">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+		</div>
+	</a>
+
+	<a href="#">
+		<div class="social-bar__item social-bar__twitter">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+		</div>
+	</a>
+
+	<a href="#">
+		<div class="social-bar__item social-bar__linkedin">
+			<i class="fa fa-linkedin" aria-hidden="true"></i>
+		</div>
+	</a>
+
+	<a href="#">
+		<div class="social-bar__item social-bar__instagram">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+		</div>
+	</a>
+</div>
+<!------------------------Sidebar-------------->
+<div class="sidenav">
+  <a href="#about">Phone Picture</a>
+  <a href="#services">Text (link)</a>
+  <a href="#clients">Phone Picture</a>
+  <a href="#contact">Text (link)</a>
+</div>
 
 
 <div class="main">
@@ -87,6 +123,36 @@ require "header.php";
           <h2 class="card_title">Samsung Galaxy Fold</h2>
           <p class="card_text">The first foldable phone on the market is finally here!, and it's made by the phone giants samsung</p>
           <button class="btn card_btn"><a href="sgsfold.php">Read More</a></button>
+        </div>
+      </div>
+    </li>
+    <li class="kartelat_item">
+      <div class="kartela">
+        <div class="card_image"><img src="Pictures/oppo-k3.jpg" style="width:500px;height:300px;"></div>
+        <div class="card_content">
+          <h2 class="card_title">Oppo K3</h2>
+          <p class="card_text">Oppo K3 brings full-screen display and SD710 for 230$</p>
+          <button class="btn card_btn"><a href="oppo-k3.php">Read More</a></button>
+        </div>
+      </div>
+    </li>
+    <li class="kartelat_item">
+      <div class="card">
+        <div class="card_image"><img src="Pictures/lenovo-z6-youth.jpg" style="width:500px;height:300px;"></div>
+        <div class="card_content">
+          <h2 class="card_title">Lenovo Z6 Youth</h2>
+          <p class="card_text">Lenovo Z6 Youth Edition debuts with Snapdragon 710</p>
+          <button class="btn card_btn"><a href="lenovo-z6-youth.php">Read More</a></button>
+        </div>
+      </div>
+    </li>
+    <li class="kartelat_item">
+      <div class="card">
+        <div class="card_image"><img src="Pictures/honor-20(1).jpg" style="width:500px;height:300px;"></div>
+        <div class="card_content">
+          <h2 class="card_title">Honor 20</h2>
+          <p class="card_text">Honor 20 brings the latest specifications for just 350$</p>
+          <button class="btn card_btn"><a href="honor-20.php">Read More</a></button>
         </div>
       </div>
     </li>
