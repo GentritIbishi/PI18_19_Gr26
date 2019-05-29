@@ -8,27 +8,26 @@
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="jquery-3.4.0.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/index.css">
   
 </head>
 <body>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-        <header>
+        <header class="main-header">
                 <div class="menu-toggle" id="hamburger">
                     <i class="fas fa-bars"></i>
                 </div>
                 <div class="overlay"></div>
-                <div class="container">
+                <div class="-header-container">
                     <nav class="head-nav">
                         <h1 class="brand"><a href="index.php">GEE<span>K</span>PHONE</a></h1>
                         <ul class="head-ul">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li id="head-li"><a href="index.php">Home</a></li>
+                            <li id="head-li"><a href="Game1.html">Game</a></li>
+                            <li id="head-li"><a href="about-us.php">About</a></li>
+                            <li id="head-li"><a href="contact-us.php">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -63,7 +62,7 @@
 
                 <div class="logout-form">
            <form action="includes/logout.inc.php" method="post">
-               <button type="submit" name="logout-submit">Logout. Work in progress</button>
+               <button type="submit" name="logout-submit">Log out</button>
            </form>
      </div>
 
