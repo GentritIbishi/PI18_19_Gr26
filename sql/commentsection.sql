@@ -1,0 +1,6 @@
+CREATE TABLE comments (
+    cid int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    uid VARCHAR(128) NOT NULL,
+    date DATETIME NOT NULL,
+    message TEXT NOT NULL
+)
