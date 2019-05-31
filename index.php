@@ -1,9 +1,12 @@
 <?php
 require "header.php";
+include 'includes/sdbh.php';
 ?>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <script src="https://use.fontawesome.com/ea603c10d8.js"></script>
+<script src="https://use.fontawesome.com/ea603c10d8.js"></script>
 <link rel="stylesheet" href="CSS/index.css">
+<link rel="stylesheet" href="CSS/search.css">
 <link rel="stylesheet" href="JS/index.js">
 <main>
 
@@ -19,13 +22,12 @@ require "header.php";
      ?> 
 </div>
 <div class="showcase">
-    <form>
+    <form action="includes/search-code.php" method="POST">
         <div class="search-bar">
-            <input type="text" placeholder="Search..">
-            <input type="submit" value="Search">
+            <input type="text" name="search" placeholder="Search..">
+            <input type="submit" name="submit-search" value="Search">
         </div>
     </form>
-
 
 </div>
 </main>
@@ -166,8 +168,27 @@ require "header.php";
 <br>
 <br>
 <br>
+<h1>Articles: Kjo de te Ndreqet ne fund</h1>
+<!--**************code per search engine***************************-->
+<div class="article-container">
+        <?php
+            $sql = "SELECT * FROM article";
+            $result = mysqli_query($conn, $sql);
+            $queryResults = mysqli_num_rows($result);
 
-
+            if ($queryResults > 0) {
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "<div class='article-box'>
+                        <h3>".$row['a_title']."</h3>
+                        <p>".$row['a_text']."</p>
+                        <p>".$row['a_date']."</p>
+                        <p>".$row['a_autori']."</p>
+                    </div>";
+                }
+            }
+        ?>
+    
+    </div>
 <?php
 require "footer.php";
 ?>
