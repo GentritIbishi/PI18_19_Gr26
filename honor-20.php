@@ -14,7 +14,7 @@ require "header.php";
         <table>
             <thead>
                 <tr>
-                    <th><img src="Pictures/honor-20.jpg" alt=""></th>
+                    <th><img src="Pictures/honor-20(1).jpg" alt=""></th>
                     <th><i class="fas fa-microchip"></i> 256GB Storage | <i class="fas fa-mobile-alt"></i> 6.0 inches | <i class="fas fa-battery-full"></i> 3300mAh |</th>
                 </tr>
             </thead>
