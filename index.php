@@ -35,25 +35,25 @@ include 'includes/sdbh.php';
 <div class="vertical-social-bar">
 	<a href="#">
 		<div class="social-bar__item social-bar__fb">
-			<i class="fa fa-facebook" aria-hidden="true"></i>
+			<i class="fab fa-facebook-f"  aria-hidden="true"></i>
 		</div>
 	</a>
 
 	<a href="#">
 		<div class="social-bar__item social-bar__twitter">
-			<i class="fa fa-twitter" aria-hidden="true"></i>
+			<i class="fab fa-linkedin-in"aria-hidden="true"></i>
 		</div>
 	</a>
 
 	<a href="#">
 		<div class="social-bar__item social-bar__linkedin">
-			<i class="fa fa-linkedin" aria-hidden="true"></i>
+			<i class="fab fa-twitter"aria-hidden="true"></i>
 		</div>
 	</a>
 
 	<a href="#">
 		<div class="social-bar__item social-bar__instagram">
-			<i class="fa fa-instagram" aria-hidden="true"></i>
+		 	<i class="fab fa-instagram" aria-hidden="true"></i>
 		</div>
 	</a>
 </div>
