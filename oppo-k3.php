@@ -305,7 +305,10 @@ require "header.php";
                 </tr>
                 </main> 
                 </table>
-
+<br>
+ <?php
+      include 'comment-section.php';
+  ?>
 
 </body>
 
