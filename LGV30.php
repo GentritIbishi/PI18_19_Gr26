@@ -5,7 +5,7 @@ require "header.php";
 ?>
 <head>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <title>SGS Fold</title>
+  <title>LGV30</title>
 </head>
 <link rel="stylesheet" href="CSS/sgsfold.css">
 <body>
@@ -14,7 +14,7 @@ require "header.php";
         <table>
             <thead>
                 <tr>
-                    <th><img src="Pictures/LG_V30.jpg" alt=""></th>
+                    <th><img src="Pictures/LG_V30.png" alt=""></th>
                     <th><i class="fas fa-microchip"></i> 256GB Storage | <i class="fas fa-mobile-alt"></i> 6.0 inches | <i class="fas fa-battery-full"></i> 3300mAh |</th>
                 </tr>
             </thead>
@@ -56,9 +56,9 @@ require "header.php";
                         <table class="basic-table">
                             <tr id="basic-row"><td id="basic-data">| Dimensions |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Weight |</td></tr>
-                            <tr id="basic-row"><td id="basic-data">| SIM |</td></tr> 
+                            <tr id="basic-row"><td id="basic-data">| SIM |</td></tr>
                             <tr id="basic-row"><td id="basic-data">.</td></tr>
-                            <tr id="basic-row"><td id="basic-data">.</td></tr> 
+                            <tr id="basic-row"><td id="basic-data">.</td></tr>
                           </table>
                     </td>
                     <td data-label="Type">
@@ -83,7 +83,7 @@ require "header.php";
                           <tr id="basic-row"><td id="basic-data">| Resolution |</td></tr>
                           <tr id="basic-row"><td id="basic-data">| Protection |</td></tr>
                           <tr id="basic-row"><td id="basic-data">.</td></tr>
-                        </table> 
+                        </table>
                     </td>
                     <td data-label="Type">
                       <table>
@@ -172,7 +172,7 @@ require "header.php";
                         <table>
                             <tr id="basic-row"><td id="basic-data">| Single |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Video |</td></tr>
-                          </table>   
+                          </table>
                     </td>
                     <td data-label="Type">
                         <table>
@@ -187,7 +187,7 @@ require "header.php";
                     </td>
                     <td data-label="Grid">
                       <table>
-                        <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>                       
+                        <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>
                         <tr id="basic-row"><td id="basic-data">| 3.5mm jack |</td></tr>
                         <tr id="basic-row"><td id="basic-data">.</td></tr>
                         <tr id="basic-row"><td id="basic-data">.</td></tr>
@@ -216,7 +216,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">| NFC |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Radio |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| USB |</td></tr>
-                          </table>   
+                          </table>
                     </td>
                     <td data-label="Type">
                         <table>
@@ -226,7 +226,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">Yes</td></tr>
                             <tr id="basic-row"><td id="basic-data">Stereo FM radio with RDS</td></tr>
                             <tr id="basic-row"><td id="basic-data">	3.1, Type-C 1.0 reversible connector</td></tr>
-                          </table>   
+                          </table>
                     </td>
                 </tr>
                 <tr>
@@ -294,7 +294,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">| Display |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Camera |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>
-                            <tr id="basic-row"><td id="basic-data">| Battery life |</td></tr>  
+                            <tr id="basic-row"><td id="basic-data">| Battery life |</td></tr>
                         </table>
                     </td>
                     <td data-label="Type">
@@ -303,11 +303,11 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">Contrast ratio: 207000 (nominal), 4.022 (sunlight)</td></tr>
                             <tr id="basic-row"><td id="basic-data">Photo / Video</td></tr>
                             <tr id="basic-row"><td id="basic-data">Voice 66dB / Noise 72dB / Ring 84dB</td></tr>
-                            <tr id="basic-row"><td id="basic-data">Endurance rating 93h</td></tr>  
+                            <tr id="basic-row"><td id="basic-data">Endurance rating 93h</td></tr>
                         </table>
                     </td>
                 </tr>
-                </main> 
+                </main>
 </table>
 <br>
  <?php
