@@ -56,9 +56,9 @@ require "header.php";
                         <table class="basic-table">
                             <tr id="basic-row"><td id="basic-data">| Dimensions |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Weight |</td></tr>
-                            <tr id="basic-row"><td id="basic-data">| SIM |</td></tr> 
+                            <tr id="basic-row"><td id="basic-data">| SIM |</td></tr>
                             <tr id="basic-row"><td id="basic-data">.</td></tr>
-                            <tr id="basic-row"><td id="basic-data">.</td></tr> 
+                            <tr id="basic-row"><td id="basic-data">.</td></tr>
                           </table>
                     </td>
                     <td data-label="Type">
@@ -83,7 +83,7 @@ require "header.php";
                           <tr id="basic-row"><td id="basic-data">| Resolution |</td></tr>
                           <tr id="basic-row"><td id="basic-data">.</td></tr>
                           <tr id="basic-row"><td id="basic-data">.</td></tr>
-                        </table> 
+                        </table>
                     </td>
                     <td data-label="Type">
                       <table>
@@ -178,7 +178,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">.</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Features |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Video |</td></tr>
-                          </table>   
+                          </table>
                     </td>
                     <td data-label="Type">
                         <table>
@@ -197,7 +197,7 @@ require "header.php";
                     </td>
                     <td data-label="Grid">
                       <table>
-                        <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>                       
+                        <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>
                         <tr id="basic-row"><td id="basic-data">| 3.5mm jack |</td></tr>
                         <tr id="basic-row"><td id="basic-data">.</td></tr>
                         <tr id="basic-row"><td id="basic-data">.</td></tr>
@@ -226,7 +226,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">| NFC |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Radio |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| USB |</td></tr>
-                          </table>   
+                          </table>
                     </td>
                     <td data-label="Type">
                         <table>
@@ -236,7 +236,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">Yes</td></tr>
                             <tr id="basic-row"><td id="basic-data">No</td></tr>
                             <tr id="basic-row"><td id="basic-data">3.1, Type-C 1.0 reversible connector</td></tr>
-                          </table>   
+                          </table>
                     </td>
                 </tr>
                 <tr>
@@ -318,7 +318,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">| Display |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Camera |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>
-                            <tr id="basic-row"><td id="basic-data">| Battery life |</td></tr>  
+                            <tr id="basic-row"><td id="basic-data">| Battery life |</td></tr>
                         </table>
                     </td>
                     <td data-label="Type">
@@ -327,11 +327,11 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">Contrast ratio: 185000:1 (nominal)</td></tr>
                             <tr id="basic-row"><td id="basic-data">Photo / Video</td></tr>
                             <tr id="basic-row"><td id="basic-data">Voice 70dB / Noise 73dB / Ring 90dB</td></tr>
-                            <tr id="basic-row"><td id="basic-data">Endurance rating 90h</td></tr>  
+                            <tr id="basic-row"><td id="basic-data">Endurance rating 90h</td></tr>
                         </table>
                     </td>
                 </tr>
-                </main> 
+                </main>
 </table>
 <br>
  <?php
