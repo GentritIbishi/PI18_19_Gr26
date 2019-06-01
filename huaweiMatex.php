@@ -14,7 +14,7 @@ require "header.php";
         <table>
             <thead>
                 <tr>
-                    <th><img src="Pictures/matex.png" alt=""></th>
+                    <th><img src="Pictures/matex.jpg" alt=""></th>
                     <th><i class="fas fa-microchip"></i> 512GB Storage | <i class="fas fa-mobile-alt"></i> 7.3 inches | <i class="fas fa-battery-full"></i> 4380mAh |</th>
                 </tr>
             </thead>
