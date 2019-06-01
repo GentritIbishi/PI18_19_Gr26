@@ -100,7 +100,7 @@ include 'includes/sdbh.php';
     </li>
     <li class="kartelat_item">
       <div class="card">
-        <div class="card_image"><img src="Pictures/matex.png" style="width:500px;height:300px;"></div>
+        <div class="card_image"><img src="Pictures/matex.jpg" style="width:500px;height:300px;"></div>
         <div class="card_content">
           <h2 class="card_title">Huawei Mate x</h2>
           <p class="card_text">One of the first flexible phones in the market, it is a serious competitor to the samsung galaxy fold</p>
