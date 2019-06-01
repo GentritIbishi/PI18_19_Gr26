@@ -27,6 +27,7 @@
                             <li id="head-li"><a href="index.php">Home</a></li>
                             <li id="head-li"><a href="buynow.php">Buy Now</a></li>
                             <li id="head-li"><a href="Game1.html">Game</a></li>
+                            <li id="head-li"><a href="live-poll-system/index.php">Live Poll</a></li>
                             <li id="head-li"><a href="about-us.php">About</a></li>
                             <li id="head-li"><a href="contact-us.php">Contact</a></li>
                         </ul>
