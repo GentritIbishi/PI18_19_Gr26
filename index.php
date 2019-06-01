@@ -168,7 +168,7 @@ include 'includes/sdbh.php';
 <br>
 <br>
 <br>
-<h1>Articles: Kjo de te Ndreqet ne fund</h1>
+<h1 style="text-align:center; font-size:30px; font-style:bold;">Articles:</h1>
 <!--**************code per search engine***************************-->
 <div class="article-container">
         <?php
