@@ -19,7 +19,7 @@ include 'includes/sdbh.php';
         echo '<p>You are logged out</p>';
     }
 
-     ?> 
+     ?>
 </div>
 <div class="showcase">
     <form action="includes/search-code.php" method="POST">
@@ -80,7 +80,7 @@ include 'includes/sdbh.php';
     </li>
     <li class="kartelat_item">
       <div class="card">
-        <div class="card_image"><img src="Pictures/mate20pro.jpg" style="width:500px;height:300px;"></div>
+        <div class="card_image"><img src="Pictures/mate20pro.png" style="width:500px;height:300px;"></div>
         <div class="card_content">
           <h2 class="card_title">Huawei Mate 20 Pro</h2>
           <p class="card_text">The latest installment of the Mate series is here and it looks promising</p>
@@ -90,7 +90,7 @@ include 'includes/sdbh.php';
     </li>
     <li class="kartelat_item">
       <div class="card">
-        <div class="card_image"><img src="Pictures/LG_V30.jpg" style="width:500px;height:300px;"></div>
+        <div class="card_image"><img src="Pictures/LG_V30.png" style="width:500px;height:300px;"></div>
         <div class="card_content">
           <h2 class="card_title">LG V30</h2>
           <p class="card_text">The LG V30 is a very good looking phone, but does i hold up with it's competitors</p>
@@ -100,7 +100,7 @@ include 'includes/sdbh.php';
     </li>
     <li class="kartelat_item">
       <div class="card">
-        <div class="card_image"><img src="Pictures/matex.jpg" style="width:500px;height:300px;"></div>
+        <div class="card_image"><img src="Pictures/matex.png" style="width:500px;height:300px;"></div>
         <div class="card_content">
           <h2 class="card_title">Huawei Mate x</h2>
           <p class="card_text">One of the first flexible phones in the market, it is a serious competitor to the samsung galaxy fold</p>
@@ -110,7 +110,7 @@ include 'includes/sdbh.php';
     </li>
     <li class="kartelat_item">
       <div class="card">
-        <div class="card_image"><img src="Pictures/oneplus6t.jpg" style="width:500px;height:300px;"></div>
+        <div class="card_image"><img src="Pictures/oneplus6t.png" style="width:500px;height:300px;"></div>
         <div class="card_content">
           <h2 class="card_title">Oneplus 6t</h2>
           <p class="card_text">Voted by MKBHD as the best phone of 2018, it packs a serious punch to the budget phone industry</p>
@@ -130,7 +130,7 @@ include 'includes/sdbh.php';
     </li>
     <li class="kartelat_item">
       <div class="kartela">
-        <div class="card_image"><img src="Pictures/oppo-k3.jpg" style="width:500px;height:300px;"></div>
+        <div class="card_image"><img src="Pictures/oppo-k3.png" style="width:500px;height:300px;"></div>
         <div class="card_content">
           <h2 class="card_title">Oppo K3</h2>
           <p class="card_text">Oppo K3 brings full-screen display and SD710 for 230$</p>
@@ -140,7 +140,7 @@ include 'includes/sdbh.php';
     </li>
     <li class="kartelat_item">
       <div class="card">
-        <div class="card_image"><img src="Pictures/lenovo-z6-youth.jpg" style="width:500px;height:300px;"></div>
+        <div class="card_image"><img src="Pictures/lenovo-z6-youth.png" style="width:500px;height:300px;"></div>
         <div class="card_content">
           <h2 class="card_title">Lenovo Z6 Youth</h2>
           <p class="card_text">Lenovo Z6 Youth Edition debuts with Snapdragon 710</p>
@@ -150,7 +150,7 @@ include 'includes/sdbh.php';
     </li>
     <li class="kartelat_item">
       <div class="card">
-        <div class="card_image"><img src="Pictures/honor-20(1).jpg" style="width:500px;height:300px;"></div>
+        <div class="card_image"><img src="Pictures/honor-20(1).png" style="width:500px;height:300px;"></div>
         <div class="card_content">
           <h2 class="card_title">Honor 20</h2>
           <p class="card_text">Honor 20 brings the latest specifications for just 350$</p>
@@ -187,7 +187,7 @@ include 'includes/sdbh.php';
                 }
             }
         ?>
-    
+
     </div>
 <?php
 require "footer.php";
