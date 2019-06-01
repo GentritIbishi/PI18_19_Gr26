@@ -14,7 +14,7 @@ require "header.php";
         <table>
             <thead>
                 <tr>
-                    <th><img src="Pictures/oneplus6t.jpg" alt=""></th>
+                    <th><img src="Pictures/oneplus6t.png" alt=""></th>
                     <th><i class="fas fa-microchip"></i> 256GB Storage | <i class="fas fa-mobile-alt"></i> 6.41 inches | <i class="fas fa-battery-full"></i> 3700mAh |</th>
                 </tr>
             </thead>
@@ -56,7 +56,7 @@ require "header.php";
                         <table class="basic-table">
                             <tr id="basic-row"><td id="basic-data">| Dimensions |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Weight |</td></tr>
-                            <tr id="basic-row"><td id="basic-data">| SIM |</td></tr> 
+                            <tr id="basic-row"><td id="basic-data">| SIM |</td></tr>
                           </table>
                     </td>
                     <td data-label="Type">
@@ -78,7 +78,7 @@ require "header.php";
                           <tr id="basic-row"><td id="basic-data">| Size |</td></tr>
                           <tr id="basic-row"><td id="basic-data">| Resolution |</td></tr>
                           <tr id="basic-row"><td id="basic-data">| Protection |</td></tr>
-                        </table> 
+                        </table>
                     </td>
                     <td data-label="Type">
                       <table>
@@ -167,7 +167,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">| Single |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Features |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Video |</td></tr>
-                          </table>   
+                          </table>
                     </td>
                     <td data-label="Type">
                         <table>
@@ -183,7 +183,7 @@ require "header.php";
                     </td>
                     <td data-label="Grid">
                       <table>
-                        <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>                       
+                        <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>
                         <tr id="basic-row"><td id="basic-data">| 3.5mm jack |</td></tr>
                         <tr id="basic-row"><td id="basic-data">.</td></tr>
                         <tr id="basic-row"><td id="basic-data">.</td></tr>
@@ -210,7 +210,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">| NFC |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Radio |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| USB |</td></tr>
-                          </table>   
+                          </table>
                     </td>
                     <td data-label="Type">
                         <table>
@@ -220,7 +220,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">Yes</td></tr>
                             <tr id="basic-row"><td id="basic-data">No</td></tr>
                             <tr id="basic-row"><td id="basic-data">2.0, Type-C 1.0 reversible connector, USB On-The-Go</td></tr>
-                          </table>   
+                          </table>
                     </td>
                 </tr>
                 <tr>
@@ -290,7 +290,7 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">| Display |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Camera |</td></tr>
                             <tr id="basic-row"><td id="basic-data">| Loudspeaker |</td></tr>
-                            <tr id="basic-row"><td id="basic-data">| Battery life |</td></tr>  
+                            <tr id="basic-row"><td id="basic-data">| Battery life |</td></tr>
                         </table>
                     </td>
                     <td data-label="Type">
@@ -299,11 +299,11 @@ require "header.php";
                             <tr id="basic-row"><td id="basic-data">Contrast ratio: Infinite (nominal), 4.138 (sunlight)</td></tr>
                             <tr id="basic-row"><td id="basic-data">Photo / Video</td></tr>
                             <tr id="basic-row"><td id="basic-data">Voice 67dB / Noise 72dB / Ring 84dB</td></tr>
-                            <tr id="basic-row"><td id="basic-data">Endurance rating 90h</td></tr>  
+                            <tr id="basic-row"><td id="basic-data">Endurance rating 90h</td></tr>
                         </table>
                     </td>
                 </tr>
-                </main> 
+                </main>
 </table>
 <br>
  <?php
