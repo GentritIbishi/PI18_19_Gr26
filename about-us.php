@@ -28,32 +28,32 @@
     </header>
 
 
- <nav></nav>  
+ <nav></nav>
  <div class="header">
- 
+
  </div>
- 
+
  <div class="container">
-    
+
     <div class="about">
        <div class="left">
           <h1>About us</h1>
           <hr>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
- 
+
                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
- 
+
        </div>
        <div class="right">
           <img src="Pictures/about-us-photo1.jpg"height="700px">
        </div>
        <div class="clear"></div>
     </div>
-    
-    
-    
+
+
+
     <div class="mission">
-      
+
        <div class="left">
           <img src="Pictures/about-us-photo2.jpg"height="650px">
        </div>
@@ -61,21 +61,21 @@
           <h1>Mission Statement</h1>
           <hr>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
- 
+
                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
- 
+
        </div>
        <div class="clear"></div>
-       
+
     </div>
-    
-    
-   
-      
-    
-    
-    
-    
+
+
+
+
+
+
+
+
     <!--*****************Rreth nesh*****************-->
     <figure class="snip0053 yellow">
         <figcaption>
@@ -103,8 +103,8 @@
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample6.jpg" alt="sample6" />
         <div class="position">Graphic Designer</div>
       </figure>
-    
-        
+
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <div class="footer-dark">
@@ -129,18 +129,18 @@
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
-                        <h3>Company Name</h3>
+                        <h3>GeekPhone</h3>
                         <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
                     </div>
                     <div class="col item social"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-snapchat-ghost"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
                 </div>
-                <p class="copyright">Company Name © 2018</p>
+                <p class="copyright">GeekPhone © 2019</p>
             </div>
         </footer>
       </div>
       <script>
                 const clocks = document.getElementsByClassName("clock");
-                
+
                 function updateClocks() {
                     for (let clock of clocks) {
                     let timezone = clock.dataset.timezone;
@@ -152,11 +152,11 @@
                     clock.textContent = time;
                     }
                 }
-                
+
                 // Update every minute:
                 setInterval(updateClocks, 60000);
                 updateClocks();
         </script>
-                    
+
 </body>
 </html>
