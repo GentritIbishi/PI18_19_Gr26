@@ -172,14 +172,14 @@
 	.brand{
 		font-size: 5rem;
 	}
-  
+
   .overlay.menu-open,
   .head-nav.menu-open{
 	  display: flex;
 	  transform: scale(1);
 	  opacity: 1;
   }
-  
+
 }
 
 
@@ -250,7 +250,7 @@ body{
     margin:40px auto;
     width:80%
  }
- 
+
  .mission{
     padding:5% 0;
     width:100%;
@@ -260,13 +260,13 @@ body{
  .mission .right{
     padding:2% 0;
     width:50%;
- 
+
     display:inline-block;
  }
  .mission .left{
     float:left;
     width:50%;
- 
+
     display:inline-block;
  }
  .mission .left img{
@@ -300,31 +300,31 @@ body{
  }
  @media(max-width:1000px){
     .about .left{
-    width:100%; 
+    width:100%;
  }
     .about .right{
-    width:100%; 
+    width:100%;
  }
        .mission .left{
-    width:100%; 
+    width:100%;
  }
     .mission .right{
-    width:100%; 
- }
-    .team .card{ 
-    width:40%;
- }   
- }
- 
- @media(max-width:1000px){
-       .team .card{ 
     width:100%;
- } 
+ }
+    .team .card{
+    width:40%;
+ }
+ }
+
+ @media(max-width:1000px){
+       .team .card{
+    width:100%;
+ }
     nav{
        height:80px;
     }
  }
- 
+
 
 /***********Rreth nesh************/
 figure.snip0053 {
@@ -463,12 +463,12 @@ body {
    width:100%;
 }
 .footer-dark {
-    padding:50px 0;
+    padding:100px 0;
     color:#f0f9ff;
     background-color:#282d32;
     width:100%;
   }
-  
+
   .footer-dark h3 {
     padding-left:5px;
     margin-top:0;
@@ -476,7 +476,7 @@ body {
     font-weight:bold;
     font-size:16px;
   }
-  
+
   .footer-dark #footer-ul {
     padding:0;
     padding-left:5px;
@@ -485,50 +485,50 @@ body {
     font-size:14px;
     margin-bottom:0;
   }
-  
+
   .footer-dark #footer-ul a {
     color:inherit;
     text-decoration:none;
     opacity:0.6;
   }
-  
+
   .footer-dark #footer-ul a:hover {
     opacity:0.8;
   }
-  
+
   @media (max-width:767px) {
     .footer-dark .item:not(.social) {
       text-align:center;
       padding-bottom:20px;
     }
   }
-  
+
   .footer-dark .item.text {
     margin-bottom:36px;
   }
-  
+
   @media (max-width:767px) {
     .footer-dark .item.text {
       margin-bottom:0;
     }
   }
-  
+
   .footer-dark .item.text p {
     opacity:0.6;
     margin-bottom:0;
   }
-  
+
   .footer-dark .item.social {
     text-align:center;
   }
-  
+
   @media (max-width:991px) {
     .footer-dark .item.social {
       text-align:center;
       margin-top:20px;
     }
   }
-  
+
   .footer-dark .item.social > a {
     font-size:20px;
     width:36px;
@@ -542,11 +542,11 @@ body {
     color:#fff;
     opacity:0.75;
   }
-  
+
   .footer-dark .item.social > a:hover {
     opacity:0.9;
   }
-  
+
   .footer-dark .copyright {
     text-align:center;
     padding-top:24px;
