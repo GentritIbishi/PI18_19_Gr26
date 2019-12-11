@@ -10,7 +10,7 @@ INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES (
     'Eldin', 'edo.veliji@gmail.com', 'test'
 );
 INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES (
-    'GentritInishi', 'gentritibishi@gmail.com', '1234pass'
+    'GentritIbishi', 'gentritibishi@gmail.com', '1234pass'
 );
 INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES (
     'FlorindaDulahu', 'florindadulahu@gmail.com','12345678'
